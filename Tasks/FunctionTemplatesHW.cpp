@@ -107,6 +107,7 @@ bool sortByComparingBs(S b1, S b2) {
     return b1.b > b2.b;
 }
 bool sortInLexicographicalOrder(S s1, S s2) {
+    //??! check
     if (s1.a != s2.a) return s1.a < s2.a;
     else if (s1.b != s2.b) return s1.b < s2.b;
     else if (s1.c != s2.c) return s1.c < s2.c;
