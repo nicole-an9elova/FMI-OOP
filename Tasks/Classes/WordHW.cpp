@@ -2,6 +2,8 @@
 #include <iostream>
 #include <cstring>
 
+
+//10.1
 //if the word has more than 20 symbols don't do anything
 class Word {
 private:
