@@ -2,7 +2,7 @@
 #include <iostream>
 #include <string>
 
-
+//9.3
 const size_t SIZE_W = 100;
 const size_t SIZE_D = 500;
 
