@@ -1,6 +1,4 @@
-﻿#pragma warning(disable: 4996)
 #include <iostream>
-#include <cstring>
 
 //10.2
 class NumbersSummator {
