@@ -35,7 +35,13 @@ TEST_CASE("Test push_back")
 
 TEST_CASE("Test constructor with def values")
 {
-
+    Vector<int> v (5, 0);
+    
+    CHECK(v[0] == 0);
+    CHECK(v[1] == 0);
+    CHECK(v[2] == 0);
+    CHECK(v[3] == 0);
+    CHECK(v[4] == 0);
 }
 int main()
 {
